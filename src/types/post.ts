@@ -1,4 +1,4 @@
-import { StorageObject } from '@/components/storage/types/obj'
+import { StorageObject } from '../components/storage/types/obj'
 import { Timestamp } from 'firebase/firestore'
 
 export type PostType = {
