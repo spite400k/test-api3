@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import admin from 'firebase-admin'
-import { Category } from '@/components/category/types/category'
-import { PostType } from '@/types/post'
+import { Category } from '../../../components/category/types/category'
+import { PostType } from '../../../types/post'
 
 export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
